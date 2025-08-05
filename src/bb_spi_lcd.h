@@ -288,8 +288,6 @@ class BB_SPI_LCD
     int rtInit(SPIClass &pSPI, uint8_t u8CS = 0xff);
 #endif
     int rtReadTouch(TOUCHINFO *ti);
-
-  private:
     SPILCD _lcd;
 
 }; // class BB_SPI_LCD
